@@ -11,4 +11,4 @@ composer require akkaweb/cakephp-feedback
 ```
 
 
-### Installation/Configuration details will be updates Jan 2, 2016
+### Installation/Configuration details will be published on Jan 2, 2016
