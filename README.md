@@ -1,2 +1,11 @@
-# AKKA-CakePHP-Feedback-Plugin
-This is a CakePHP 3 Plugin that allows easy implementation of a feedback system within a website.
+# AkkaFeedback plugin for CakePHP
+
+## Installation
+
+You can install this plugin into your CakePHP application using [composer](http://getcomposer.org).
+
+The recommended way to install composer packages is:
+
+```
+composer require your-name-here/AkkaFeedback
+```

@@ -1,0 +1,24 @@
+{
+  "name": "akkaweb/cakephp-feedback",
+  "description": "CakePHP 3 Feedback Plugin",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp", "cakephp3", "feedback"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andre Santiago",
+      "email": "admin@akkaweb.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AkkaFeedback\\": "src"
+    }
+  },
+  "extra": {
+    "installer-name": "AkkaFeedback"
+  }
+}
