@@ -67,5 +67,3 @@
     </div>
   </div>
 </div>
-
-<?php echo $this->element('ClipTwoAdmin.Popups/view_feedback', ['cache' => false]); ?>
