@@ -1,6 +1,8 @@
 # CakePHP 3 Feedback Plugin
 
-A CakePHP 3 Plugin used in conjunction with the jQuery Sliiide Plugin that allows easy implementation of a feedback system within a website.
+A CakePHP 3 Plugin used in conjunction with the jQuery Sliiide Plugin that allows easy implementation of a feedback system within a website. Feedback will collect the following: `name, email, feedback, IP, browser and referrer`.
+
+This plugin can be seen in action at this website: https://www.kidzwl.com
 
 [![Total Downloads](https://poser.pugx.org/akkaweb/cakephp-feedback/downloads.svg)](https://packagist.org/packages/akkaweb/cakephp-facebook)
 [![License](https://poser.pugx.org/akkaweb/cakephp-feedback/license.svg)](https://packagist.org/packages/akkaweb/cakephp-facebook)
