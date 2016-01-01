@@ -29,7 +29,7 @@
               <td class="hidden-xs"><?php echo $feedback->created; ?></td>
               <td class="center">
                 <div class="visible-md visible-lg hidden-sm hidden-xs">
-                  <a href="#" class="btn btn-transparent btn-xs" tooltip-placement="top" tooltip="View" data-toggle="modal" data-target=".bs-view-feedback" data-feedback="<?php echo $feedback->id; ?>"><i class="fa fa-eye"></i></a>
+                  <a href="/admin/feedbacks/view/<?php echo $feedback->id; ?>" class="btn btn-transparent btn-xs" tooltip-placement="top" tooltip="View" data-toggle="modal" data-target=".bs-view-feedback" data-feedback="<?php echo $feedback->id; ?>"><i class="fa fa-eye"></i></a>
                   <?php
                   echo $this->Form->postLink(
                           '<i class="fa fa-times"></i>', ['action' => 'delete', $feedback->id], ['confirm' => 'Are you sure you want to delete this Feedback?', 'class' => 'btn btn-transparent btn-xs tooltips', 'escape' => false]);

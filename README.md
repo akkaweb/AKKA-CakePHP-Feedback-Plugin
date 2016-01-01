@@ -75,6 +75,13 @@ Add the following to the bottom of your layout file right before the end body ta
 
 ```<?php echo $this->Element('AkkaFeedback.feedback_form'); ?>```
 
+NOTE: You need to ensure the following is also added within the <head> tag of your application
+
+```
+	<?= $this->fetch('css') ?>
+	<?= $this->fetch('script') ?>
+```
+
 At this point the default Feedback Form will start showing on your site.
 
 If you would like a different form, you can copy this element, make the necessary changes and create a new element in your application's Element folder
