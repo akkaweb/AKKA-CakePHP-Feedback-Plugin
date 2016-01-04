@@ -4,8 +4,8 @@ A CakePHP 3 Plugin used in conjunction with the jQuery Sliiide Plugin that allow
 
 This plugin can be seen in action at this website: https://www.kidzwl.com
 
-[![Total Downloads](https://poser.pugx.org/akkaweb/cakephp-feedback/downloads.svg)](https://packagist.org/packages/akkaweb/cakephp-facebook)
-[![License](https://poser.pugx.org/akkaweb/cakephp-feedback/license.svg)](https://packagist.org/packages/akkaweb/cakephp-facebook)
+[![Total Downloads](https://poser.pugx.org/akkaweb/cakephp-feedback/downloads.svg)](https://packagist.org/packages/akkaweb/cakephp-feedback)
+[![License](https://poser.pugx.org/akkaweb/cakephp-feedback/license.svg)](https://packagist.org/packages/akkaweb/cakephp-feedback)
 
 ## Requirements #######################################################
 - CakePHP 3
