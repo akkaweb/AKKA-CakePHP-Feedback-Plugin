@@ -1,5 +1,7 @@
 # CakePHP 3 Feedback Plugin
 
+[![Join the chat at https://gitter.im/akkaweb/AKKA-CakePHP-Feedback-Plugin](https://badges.gitter.im/akkaweb/AKKA-CakePHP-Feedback-Plugin.svg)](https://gitter.im/akkaweb/AKKA-CakePHP-Feedback-Plugin?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 A CakePHP 3 Plugin used in conjunction with the jQuery Sliiide Plugin that allows easy implementation of a feedback system within a website. Feedback will collect the following: `name, email, feedback, IP, browser and referrer`.
 
 This plugin can be seen in action at this website: https://www.kidzwl.com
