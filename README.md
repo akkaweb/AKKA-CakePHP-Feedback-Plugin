@@ -65,12 +65,11 @@ This Feedback plugin uses the `feedbacks` database table to save feedbacks. Plea
 
 If you would rather create this table directly using phpMyAdmin, Workbench or other Database Tools, you can use the file provided in `AkkaFeedback/config/Schema/feedback.sql`
 
-3. Load the plugin's helper in `AppController.php`
+3. Load the plugin's helper in `src/View/AppView.php` inside the `initialize()` hook method
 
 ```php
-public $helpers = [
-      'AkkaFeedback.Feedback'
-  ];
+parent::initialize();
+$this->loadHelper('AkkaFeedback.Feedback');
 ```
 
 4. Add Default Element to your Layout file
