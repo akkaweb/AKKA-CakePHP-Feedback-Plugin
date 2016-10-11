@@ -95,14 +95,10 @@ This plugin comes with a set of controller files that allows an administrator to
 
 The preferred method is thru using `src/Controller/Admin/FeedbacksController.php` which requires your application to have an `AdminsController.php` but the file `src/Controller/FeedbacksController.php` also includes prefixed `admin` actions. ie `admin_index`.
 
-Optionally you can add the following routes to your Application's `routes.php`:
-
+By default the plugin provides the following route that allows the following URLs to be accessible:
 ```
-Router::prefix('admin', function ($routes) {
-  $routes->connect('/feedbacks', ['plugin' => 'AkkaFeedback', 'controller' => 'Feedbacks', 'action' => 'index']);
-  $routes->connect('/feedbacks/:action/*', ['plugin' => 'AkkaFeedback', 'controller' => 'Feedbacks']);
-  $routes->fallbacks('InflectedRoute');
-});
+    /admin/feedbacks
+    /admin/feedbacks/index ([/edit/:id] and [/view/:id])
 ```
 
 ## Disclaimer
