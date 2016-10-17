@@ -39,6 +39,10 @@ class FeedbacksController extends AppController
             if ($this->Feedbacks->save($feedback)) {
                 $event = new Event('Model.Feedbacks.afterSave', $this, ['feedback' => $feedback]);
                 $this->eventManager()->dispatch($event);
+                
+                $this->Flash->success(__('Your message has been submitted successfully.'));
+            } else {
+                $this->Flash->error(__('There was a problem submitting your message. Please try again!.'));
             }
         }
         $this->set(compact('feedback'));
