@@ -9,9 +9,10 @@ $(document).ready(function () {
 
     var name = form.find("input#name").val();
     var email = form.find("input#email").val();
+    var phone = form.find("input#phone").val();
     var feedback = form.find("textarea#feedback").val();
 
-    var data = {name: name, email: email, feedback: feedback};
+    var data = {name: name, email: email, phone: phone, feedback: feedback};
 
     fieldset.hide();
     loading.show();
