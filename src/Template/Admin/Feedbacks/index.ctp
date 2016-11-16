@@ -14,6 +14,7 @@
                         <th class="">Email</th>
                         <th class="">Name</th>
                         <th class="">Feedback</th>
+                        <th class="">Phone</th>
                         <th class="">IP</th>
                         <th class="hidden-xs">Created</th>
                         <th class="center">Actions</th>
@@ -25,6 +26,7 @@
                             <td class=""><?php echo $feedback->email; ?></td>
                             <td class=""><?php echo $feedback->name; ?></td>
                             <td class=""><?php echo $feedback->feedback; ?></td>
+                            <td class=""><?php echo $feedback->phone; ?></td>
                             <td class=""><?php echo $feedback->ip; ?></td>
                             <td class="hidden-xs"><?php echo $feedback->created; ?></td>
                             <td class="center">
