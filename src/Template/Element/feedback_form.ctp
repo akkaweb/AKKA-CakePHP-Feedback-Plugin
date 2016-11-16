@@ -17,6 +17,10 @@
       <?php echo $this->Form->input('email', ['label' => false, 'class' => 'form-control', 'placeholder' => 'Enter your Email']); ?>
     </div>
     <div class="form-group">
+      <label>Phone</label>
+      <?php echo $this->Form->input('phone', ['label' => false, 'class' => 'form-control', 'placeholder' => 'Enter your Email']); ?>
+    </div>
+    <div class="form-group">
       <label>Feedback</label>
       <?php echo $this->Form->textarea('feedback', ['label' => false, 'class' => 'form-control', 'placeholder' => 'Your detailed Feedback', 'id' => 'feedback']); ?>
     </div>
