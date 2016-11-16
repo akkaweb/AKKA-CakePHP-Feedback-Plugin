@@ -21,6 +21,12 @@
     </div>
     <div class="form-group">
       <label class="control-label">
+        Phone <span class="symbol required"></span>
+      </label>
+      <?php echo $feedback['phone']; ?>
+    </div>
+    <div class="form-group">
+      <label class="control-label">
         Browser <span class="symbol required"></span>
       </label>
       <?php echo $feedback['browser']; ?>
