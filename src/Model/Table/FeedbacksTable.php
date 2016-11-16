@@ -46,6 +46,7 @@ class FeedbacksTable extends Table {
     $validator->allowEmpty('ip');
     $validator->allowEmpty('referrer');
     $validator->allowEmpty('viewed');
+    $validator->allowEmpty('phone');
 
     return $validator;
   }
