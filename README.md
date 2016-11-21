@@ -24,7 +24,7 @@ NOTE: Sliiide jQuery Plugin is also needed, but it is included and loaded by the
 
 ##### Composer
 
-1. Run the following Composer command from the root of your application
+### Run the following Composer command from the root of your application
 
 ```php composer.phar require akkaweb/cakephp-feedback```
 
@@ -36,7 +36,7 @@ Or Add the following to your `composer.json` file located in the root of your ap
 }
 ```
 
-2. Then run the following command at the root of your application
+### Then run the following command at the root of your application
 
 ```
 php composer.phar update
@@ -45,7 +45,7 @@ Note: if `composer.phar` is not found, you need to install it. Follow CakePHP's 
 
 ## Configuration #######################################################
 
-1. Load the plugin in your application's `bootstrap.php` file:
+### Load the plugin in your application's `bootstrap.php` file:
 
 Using command-line
 
@@ -57,7 +57,7 @@ or
 Plugin::load('AkkaFeedback', ['bootstrap' => false, 'routes' => true]);
 ```
 
-2. Schema Migrations
+### Schema Migrations
 
 This Feedback plugin uses the `feedbacks` database table to save feedbacks. Please use the following command to run the migrations file included
 
@@ -65,14 +65,14 @@ This Feedback plugin uses the `feedbacks` database table to save feedbacks. Plea
 
 If you would rather create this table directly using phpMyAdmin, Workbench or other Database Tools, you can use the file provided in `AkkaFeedback/config/Schema/feedback.sql`
 
-3. Load the plugin's helper in `src/View/AppView.php` inside the `initialize()` hook method
+### Load the plugin's helper in `src/View/AppView.php` inside the `initialize()` hook method
 
 ```php
 parent::initialize();
 $this->loadHelper('AkkaFeedback.Feedback');
 ```
 
-4. Add Default Element to your Layout file
+### Add Default Element to your Layout file
 
 Add the following to the bottom of your layout file right before the end body tag `</body>`
 
@@ -85,13 +85,14 @@ NOTE: You need to ensure the following is also added within the <head> tag of yo
 	<?= $this->fetch('script') ?>
 ```
 
-5. Adding reCaptacha to Forms
+### Adding reCaptacha to Forms
 
 To enabled reCaptacha in your forms, you need to add the following to application bootstrap files. ie. `bootstrap.php`.
 
 ```Configure::write('Feedbacks.reCaptcha.enable', true); //to enable reCatpcha login```
 ```Configure::write('Feedbacks.reCaptcha.key', 'xxxxxxxxxxxxxxxxxxxx'); //reCatpcha key```
 ```Configure::write('Feedbacks.reCaptcha.secret', 'xxxxxxxxxxxxxxxxxxxx'); //reCatpcha secret```
+
 
 At this point the default Feedback Form will start showing on your site.
 
