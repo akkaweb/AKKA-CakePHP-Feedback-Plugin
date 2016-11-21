@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  $('#akka-feedback').show("slow");
   $('form#akka-feedback-form').submit(function (e) {
     e.preventDefault();
     var form = $(this);
