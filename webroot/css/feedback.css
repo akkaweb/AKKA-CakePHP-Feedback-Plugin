@@ -1,5 +1,6 @@
 #akka-feedback{max-width:450px;padding:20px;background-color:#fff;color:#000;z-index: 1000;box-shadow: 1px 1px 4px;}
 #akka-feedback .alert{display:none;}
 #akka-feedback .loading{display:none;}
+#akka-feedback .close-feedback{z-index:100;}
 #akka-feedback-toggle{position:fixed;top:40%;padding:0;background:transparent;cursor: pointer;left:0;}
 @media only screen and (max-width: 500px) {#akka-feedback {width:100%!important;}}
