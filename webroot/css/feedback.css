@@ -1,4 +1,4 @@
-#akka-feedback{max-width:450px;padding:20px;background-color:#fff;color:#000;z-index: 1000;box-shadow: 1px 1px 4px;}
+#akka-feedback{max-width:450px;padding:20px;background-color:#fff;color:#000;z-index: 1000;box-shadow: 1px 1px 4px;display:none;}
 #akka-feedback .alert{display:none;}
 #akka-feedback .loading{display:none;}
 #akka-feedback .close-feedback{z-index:100;}
