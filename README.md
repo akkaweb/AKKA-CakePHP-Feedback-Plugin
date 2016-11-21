@@ -32,7 +32,7 @@ Or Add the following to your `composer.json` file located in the root of your ap
 
 ```php
 "require": {
-	"akkaweb/cakephp-feedback": "dev-master"
+	"akkaweb/cakephp-feedback": "2.0.*"
 }
 ```
 
@@ -84,6 +84,14 @@ NOTE: You need to ensure the following is also added within the <head> tag of yo
 	<?= $this->fetch('css') ?>
 	<?= $this->fetch('script') ?>
 ```
+
+5. Adding reCaptacha to Forms
+
+To enabled reCaptacha in your forms, you need to add the following to application bootstrap files. ie. `bootstrap.php`.
+
+```Configure::write('Feedbacks.reCaptcha.enable', true); //to enable reCatpcha login```
+```Configure::write('Feedbacks.reCaptcha.key', 'xxxxxxxxxxxxxxxxxxxx'); //reCatpcha key```
+```Configure::write('Feedbacks.reCaptcha.secret', 'xxxxxxxxxxxxxxxxxxxx'); //reCatpcha secret```
 
 At this point the default Feedback Form will start showing on your site.
 

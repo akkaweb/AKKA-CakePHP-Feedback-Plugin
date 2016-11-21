@@ -1,3 +1,1 @@
-<?php
-
-// Required - Do not remove
+<?= $this->fetch('content'); ?>

@@ -10,8 +10,12 @@
       "email": "admin@akkaweb.com"
     }
   ],
+    "require": {
+        "google/recaptcha": "@stable"
+    },
   "require-dev": {
     "phpunit/phpunit": "*"
+    
   },
   "autoload": {
     "psr-4": {
