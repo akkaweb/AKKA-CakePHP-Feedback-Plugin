@@ -10,6 +10,7 @@ use Cake\Core\Configure;
     <p>Your feedback helps us understand what we are doing well and where we can improve.</p>
     <?php echo $this->Form->create(null, ['id' => 'akka-feedback-form', 'class' => 'text-left', 'role' => 'form', 'url' => ['prefix' => false, 'plugin' => 'AkkaFeedback', 'controller' => 'Feedbacks', 'action' => 'add']]); ?>
     <div class="alert alert-success"></div>
+    <div class="alert alert-danger"></div>
     <div class="loading"><?php echo $this->Html->image('AkkaFeedback.loading.gif'); ?></div>
     <fieldset>
         <div class="form-group">
