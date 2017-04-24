@@ -66,6 +66,7 @@ class FeedbacksController extends AppController
      */
     protected function _validateReCaptcha()
     {
+        // Only validate if reCaptcha is enabled by the admin.
         if (Configure::read('Feedbacks.reCaptcha.enable')) {
 
             return $this->validateReCaptcha(
