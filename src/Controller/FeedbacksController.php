@@ -73,7 +73,8 @@ class FeedbacksController extends AppController
             );
         }
 
-        return false;
+        // Since reCaptcha is not enabled, true will be returned.
+        return true;
     }
 
     /**
